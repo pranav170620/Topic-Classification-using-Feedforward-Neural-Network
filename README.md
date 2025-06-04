@@ -4,17 +4,6 @@ This repository contains a complete implementation of a topic classification sys
 
 The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html) and classifies news into three categories: **Politics**, **Sports**, and **Economy**.
 
----
-
-##  Project Overview
-
-- **Course**: COM6513 — Natural Language Processing  
-- **Institution**: University of Sheffield  
-- **Instructor**: Nikos Aletras  
-- **Student**: Pranav Kumar Sasikumar  
-- **Assignment**: Build and train a Feedforward Neural Network from scratch
-
----
 
 ##  Features
 
@@ -73,21 +62,6 @@ To use GloVe embeddings:
 3. Modify the notebook to load from this path and **freeze** embeddings during training.
 
 >  Avoid pushing the GloVe file to GitHub — it's over 2GB and not allowed.
-
----
-
-##  Future Work
-
-- Integrate LSTM or Transformer-based encoders
-- Add attention mechanism for better feature attribution
-- Extend to multi-label or multi-language classification
-- Explore optimization via Adam or RMSProp
-
----
-
-##  License
-
-This repository is open-sourced under the MIT License — feel free to reuse and modify for educational purposes.
 
 ---
 
