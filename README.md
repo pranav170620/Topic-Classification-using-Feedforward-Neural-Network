@@ -1,4 +1,4 @@
-# 🧠 Topic Classification using Feedforward Neural Network
+#  Topic Classification using Feedforward Neural Network
 
 This repository contains a complete implementation of a topic classification system using a custom Feedforward Neural Network (FFNN), built from scratch using only Python, NumPy, and basic data processing libraries — no high-level frameworks like PyTorch or TensorFlow.
 
@@ -6,7 +6,7 @@ The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 - **Course**: COM6513 — Natural Language Processing  
 - **Institution**: University of Sheffield  
@@ -16,7 +16,7 @@ The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.
 
 ---
 
-## 🏗️ Features
+##  Features
 
 - **Text Preprocessing**: Unigram tokenization, stopword removal, vocabulary building
 - **Input Representation**: Word indices mapped to embedding matrix
@@ -35,7 +35,7 @@ The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.
 
 ---
 
-## 📈 Performance Summary
+##  Performance Summary
 
 | Metric     | Score     |
 |------------|-----------|
@@ -44,11 +44,11 @@ The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.
 | Recall     | 84.1%     |
 | F1-Score   | 84.0%     |
 
-> 🔧 With GloVe embeddings, performance improved slightly in generalization.
+>  With GloVe embeddings, performance improved slightly in generalization.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -64,7 +64,7 @@ The model is trained on a subset of the [AG News Corpus](http://groups.di.unipi.
 
 ---
 
-## 🧬 Pretrained Embeddings (Optional)
+##  Pretrained Embeddings (Optional)
 
 To use GloVe embeddings:
 
@@ -72,11 +72,11 @@ To use GloVe embeddings:
 2. Place the `.zip` or extracted `.txt` inside the `glove/` directory.
 3. Modify the notebook to load from this path and **freeze** embeddings during training.
 
-> ⚠️ Avoid pushing the GloVe file to GitHub — it's over 2GB and not allowed.
+>  Avoid pushing the GloVe file to GitHub — it's over 2GB and not allowed.
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Integrate LSTM or Transformer-based encoders
 - Add attention mechanism for better feature attribution
@@ -85,13 +85,13 @@ To use GloVe embeddings:
 
 ---
 
-## 📜 License
+##  License
 
 This repository is open-sourced under the MIT License — feel free to reuse and modify for educational purposes.
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Pranav Kumar Sasikumar**  
 [MSc Data Analytics, University of Sheffield]  
